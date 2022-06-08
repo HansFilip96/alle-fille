@@ -1,12 +1,23 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
 * {
+  font-family: "Red Hat Display";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   background-image: url("/images/pattern-background-desktop.svg");
+
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
+
   background-color: hsl(225, 100%, 94%);
+}
+
+.price_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
 }
