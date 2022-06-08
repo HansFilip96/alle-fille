@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import Order from "../Order/Order";
 const Card = () => {
   return (
     <div
@@ -18,6 +19,7 @@ const Card = () => {
           You can now listen to millions of songs, <br /> audiobooks, and
           podcasts on any device <br /> anywhere you go
         </p>
+        <Order />
       </div>
     </div>
   );
