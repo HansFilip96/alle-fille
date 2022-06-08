@@ -12,6 +12,13 @@ const Card = () => {
       }}
     >
       <div id="hero__image"></div>
+      <div className="order_summary_container">
+        <h3 className="order_summary_title">Order Summary</h3>
+        <p className="order_summary_text">
+          You can now listen to millions of songs, <br /> audiobooks, and
+          podcasts on any device <br /> anywhere you go
+        </p>
+      </div>
     </div>
   );
 };
